@@ -1,6 +1,6 @@
-/* 
+/*
 
-Style Hints: 
+Style Hints:
 
 Body Font Size = 14px
 	 Font Family = "Times New Roman", serif
@@ -17,3 +17,70 @@ H2: Font Size = 18px
 	Font-Family: cursive, Helvetica, sans-serif;
 
 */
+
+body {
+    background-image: url("../images/pattern1.png")
+}
+
+
+div {
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+}
+
+header {
+    text-transform: uppercase;
+    background-color: pink;
+    width: 96%;
+    padding:20px;
+}
+
+footer {
+    background-color: pink;
+    width: 96%;
+    padding: 20px;
+    text-align: right;
+    color: white;
+}
+
+div.whole{
+    padding: -200px;
+}
+
+div.page{
+    width: 90%;
+    padding: 20px;
+}
+
+div.banner {
+    background-image: url("../images/orchids.jpg");
+    height:500px;
+    width: 100%;
+}
+
+div.photo{
+    width: 90%;
+    padding: 20px;
+}
+
+div.photos {
+    padding: 2px 0px 2px 4px;
+    margin: 10px;
+    width: 100%;
+    display: inline-block;
+}
+
+h3 {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+img{
+    border: 5px white solid;
+    border-style: groove;
+    width: 200px;
+    padding: 1px 3px 3px 2px;
+    margin: 10px 2px;
+    left: 10px;
+}
